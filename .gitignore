@@ -1,0 +1,73 @@
+# OS and editor metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vs/
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.suo
+*.user
+~$*
+
+# Archives and generated bundles
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Build and package outputs
+build/
+dist/
+out/
+bin/
+obj/
+coverage/
+
+# Local databases, network captures, and customer/runtime artifacts
+*.mdf
+*.ldf
+*.ndf
+*.pcap
+*.pcapng
+*.etl
+*.evtx
+*.db
+*.sqlite
+*.sqlite3
+*.pid
+*.status.json
+*.s7payload.log
+
+# Release artifacts belong to GitHub Releases, not source control
+release/
+releases/
+*.exe
+*.dll
+*.msi
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node dependencies and caches
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

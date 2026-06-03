@@ -1,0 +1,29 @@
+{
+  "defaultProfile": "external",
+  "profiles": [
+    {
+      "name": "external",
+      "displayName": "standard (port 102)",
+      "descriptionRu": "Основной режим: HMI, WinCC, EasyBuilder, SCADA или другой S7-клиент подключается к IP этого ПК по TCP/102.",
+      "descriptionEn": "Main mode: HMI, WinCC, EasyBuilder, SCADA, or another S7 client connects to this PC IP over TCP/102.",
+      "listenAddress": "192.168.40.50",
+      "listenPort": 102,
+      "plcsimAddress": "192.168.40.10",
+      "rack": 0,
+      "slot": 1,
+      "enableTsapCheck": false
+    },
+    {
+      "name": "internal",
+      "displayName": "loopback fallback (port 1102)",
+      "descriptionRu": "Резервный локальный режим: только клиенты на этом же ПК через 127.0.0.1:1102, если клиент умеет указать нестандартный порт.",
+      "descriptionEn": "Fallback local mode: same-PC clients only through 127.0.0.1:1102 if the client can use a custom port.",
+      "listenAddress": "127.0.0.1",
+      "listenPort": 1102,
+      "plcsimAddress": "192.168.40.10",
+      "rack": 0,
+      "slot": 1,
+      "enableTsapCheck": false
+    }
+  ]
+}
