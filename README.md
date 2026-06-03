@@ -102,15 +102,14 @@ Build the GUI release:
   /p:Configuration=Release /p:Platform=x86 /m /v:minimal
 ```
 
-The main artifact is:
+The main build artifact is:
 
 ```text
 src\PlcsimGateway.Gui\bin\x86\Release\PlcsimGateway.Gui.exe
 ```
 
-When publishing on GitHub, attach the compiled exe as a Release asset, for
-example inside `PlcsimGateway-v0.1.0-win-x86.zip`. Do not commit build outputs
-to the repository.
+Prebuilt Windows packages are available from the repository's
+[Releases](https://github.com/toolowinmydev/PlcsimGateway/releases) page.
 
 ## Configuration
 

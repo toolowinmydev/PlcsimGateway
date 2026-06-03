@@ -104,15 +104,14 @@ Release-сборка GUI:
   /p:Configuration=Release /p:Platform=x86 /m /v:minimal
 ```
 
-Основной артефакт:
+Основной артефакт сборки:
 
 ```text
 src\PlcsimGateway.Gui\bin\x86\Release\PlcsimGateway.Gui.exe
 ```
 
-При публикации на GitHub готовый exe лучше прикладывать как Release asset,
-например внутри `PlcsimGateway-v0.1.0-win-x86.zip`. Не добавляйте результаты
-сборки в репозиторий.
+Готовые Windows-пакеты доступны на странице
+[Releases](https://github.com/toolowinmydev/PlcsimGateway/releases).
 
 ## Конфигурация
 
